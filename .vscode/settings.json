@@ -1,0 +1,33 @@
+{
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["src/harpy/_tests"],
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.useEnvironmentsExtension": false,
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/__pycache__":true,
+        "**/.pytest_cache":true,
+        "**/DATA":true,
+        "**/data":true,
+        "**/.git":true,
+        "**/cache":true,
+        "**/.ipynb_checkpoints":true,
+        "**/.venv*":true
+      },
+      "files.watcherExclude": {
+        "**/node_modules": true,
+        "**/__pycache__":true,
+        "**/.pytest_cache":true,
+        "**/DATA":true,
+        "**/data":true,
+        "**/.git":true,
+        "**/cache":true,
+        "**/.ipynb_checkpoints":true,
+        "**/.venv*":true
+      },
+      "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+      }
+}

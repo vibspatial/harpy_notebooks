@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Pytest (debugpy, run file)",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "pytest",
+        // run the current file's tests; remove if you want whole suite
+        "args": ["-q", "${file}"],
+        "pythonArgs": ["-Xfrozen_modules=off"], // your key line is fine
+        "console": "integratedTerminal",
+        "justMyCode": false,
+        "cwd": "${workspaceFolder}",
+        "env": { "PYTHONIOENCODING": "utf-8" }
+      }
+    ]
+  }
+  
