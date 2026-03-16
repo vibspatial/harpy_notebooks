@@ -1,12 +1,4 @@
 # Custom
-configs/allocate/*
-configs/annotate/*
-configs/clean/*
-configs/dataset/*
-configs/experiment/*
-configs/local/*
-configs/segmentation/*
-configs/visualize/*
 data
 spatial
 logs
@@ -16,20 +8,6 @@ logs
 notebooks
 
 # Add exection for example configs for resolve and vizgen
-!configs/allocate/resolve_liver.yaml
-!configs/allocate/vizgen_example.yaml
-!configs/annotate/resolve_liver.yaml
-!configs/clean/resolve_liver.yaml
-!configs/clean/vizgen_example.yaml
-!configs/dataset/resolve_liver.yaml
-!configs/dataset/resolve_liver_2.yaml
-!configs/dataset/vizgen_example.yaml
-!configs/experiment/resolve_liver.yaml
-!configs/experiment/vizgen_example.yaml
-!configs/local/default.example.yaml
-!configs/segmentation/cellpose_resolve_liver.yaml
-!configs/segmentation/cellpose_vizgen_example.yaml
-!configs/visualize/resolve_liver.yaml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
