@@ -5,6 +5,5 @@ These tutorials are intended for users who want to learn how to run Harpy in a H
 ```{toctree}
 :maxdepth: 1
 
-intro.md
 vib_compute.md
 ```
