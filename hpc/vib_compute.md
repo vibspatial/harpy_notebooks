@@ -58,4 +58,4 @@ ipython kernel install --user --name harpy --display-name "harpy"
 
 Now on [https://compute.vib.be](https://compute.vib.be/pun/sys/dashboard/batch_connect/sys/jupyter-gpu/session_contexts/new), start a JupyterLab on GPU (select Python 3.10); check the conda environment box; select Mamba as the system wide Conda Module; fill in `harpy` as the name of the Custom Conda Environment.
 
-You should now be able to run the notebook [Harpy_feature_calculation.ipynb](../general/Harpy_feature_calculation.ipynb) in an interactive session on the VIB compute cluster.
+You should now be able to run Harpy notebooks, such as those of the [spatial multi-omics training](https://github.com/vibspatial/spatial_multi_omics_training), in an interactive session on the VIB compute cluster.
